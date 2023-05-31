@@ -28,12 +28,12 @@ To set up the Realremote Frontend repository locally, follow these steps:
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/4TWIGGERS/realremote-frontend.git
+   git clone https://github.com/4TWIGGERS/realremote-front.git
    ```
    
 2. **Navigate to the project directory:**
    ```
-   cd realremote-frontend
+   cd realremote-front
    ```
 
 3. **Install dependencies:**
@@ -52,7 +52,7 @@ To set up the Realremote Frontend repository locally, follow these steps:
 
 We welcome contributions to improve the Realremote Frontend repository. To contribute, please follow these steps:
 
-1. Fork the repository from the [Realremote Frontend GitHub page](https://github.com/4TWIGGERS/realremote-frontend).
+1. Fork the repository from the [Realremote Frontend GitHub page](https://github.com/4TWIGGERS/realremote-front).
 2. Create a new branch with a descriptive name for your feature or bug fix.
 3. Make the necessary changes and commit them.
 4. Push your changes to your forked repository.
