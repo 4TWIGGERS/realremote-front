@@ -5,6 +5,10 @@ Welcome to the Realremote Frontend repository! This repository contains the code
 ## Table of Contents
 
 - [About Realremote](#about-realremote)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## About Realremote
 
