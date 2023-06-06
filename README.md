@@ -63,7 +63,7 @@ To set up the Realremote Frontend repository locally, follow these steps:
 
 We welcome contributions to improve the Realremote Frontend repository. To contribute, please follow these steps:
 
-1. Fork the repository from the [Realremote Frontend GitHub page](https://github.com/your-username/realremote-front).
+1. Fork the repository from the [Realremote Frontend GitHub page](https://github.com/4TWIGGERS/realremote-front).
 2. Create a new branch with a descriptive name for your feature or bug fix.
 3. Make the necessary changes and commit them.
 4. Push your changes to your forked repository.
@@ -71,6 +71,8 @@ We welcome contributions to improve the Realremote Frontend repository. To contr
 6. Our team will review your contribution and provide feedback.
 
 Please ensure that you adhere to our [code of conduct](CODE_OF_CONDUCT.md) when contributing.
+
+Backend of the project: [Realremote Backend GitHub page](https://github.com/4TWIGGERS/realremote-back](https://github.com/4TWIGGERS/realremote-back)
 
 ## License
 
