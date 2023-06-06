@@ -1,0 +1,36 @@
+diff --git a/node_modules/@react-navigation/native/lib/module/useLinking.js b/node_modules/@react-navigation/native/lib/module/useLinking.js
+index c235112..5740d30 100644
+--- a/node_modules/@react-navigation/native/lib/module/useLinking.js
++++ b/node_modules/@react-navigation/native/lib/module/useLinking.js
+@@ -30,8 +30,13 @@ const createMemoryHistory = () => {
+       const id = (_window$history$state = window.history.state) === null || _window$history$state === void 0 ? void 0 : _window$history$state.id;
+ 
+       if (id) {
+-        const index = items.findIndex(item => item.id === id);
+-        return index > -1 ? index : 0;
++        // const index = items.findIndex(item => item.id === id);
++        let currentIndex = items.findIndex((item) => item.id === id);
++        if (currentIndex < 0) {
++          currentIndex = 0;
++        }
++        index = currentIndex
++        return currentIndex;
+       }
+ 
+       return 0;
+@@ -89,12 +94,14 @@ const createMemoryHistory = () => {
+       interrupt();
+       const id = (_window$history$state2 = (_window$history$state3 = window.history.state) === null || _window$history$state3 === void 0 ? void 0 : _window$history$state3.id) !== null && _window$history$state2 !== void 0 ? _window$history$state2 : nanoid();
+ 
+-      if (items.length) {
++      if (items.findIndex((item) => item.id === id) < 0) {
+         items[index] = {
+           path,
+           state,
+           id
+         };
++      }else if (items.length){
++        items[index] = { path, state, id };
+       } else {
+         // This is the first time any state modifications are done
+         // So we need to push the entry as there's nothing to replace
